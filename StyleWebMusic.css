@@ -1,0 +1,54 @@
+body
+{
+	background-image : url("FondPage.jpg");
+	color : white;
+}
+
+#en-tete h1
+{
+	margin-top : 0.5%;
+	margin-left : 1%;
+}
+
+#en-tete
+{
+	color : black;
+	Background-color : lightgrey;
+	Height : 3em;
+	position : fixed;
+	top : 0;
+	left : 0;
+	right : 0;
+}
+
+#pagedegarde
+{
+	height : 100%;
+	width : 100%;
+	margin-top : 3em;
+	display : inline-block;
+}
+
+#pagedegarde h2
+{
+	margin-left : 1%;
+}
+
+.categorie
+{
+	margin-top : 7.5em;
+	margin-left : 2em;
+	Height : 10em;
+	Width : 100%;
+}
+
+#Marley img
+{
+	width : 200px;
+	float : left;
+}
+
+figcaption
+{
+	margin-left: 1%;
+}
