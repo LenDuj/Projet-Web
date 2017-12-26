@@ -78,6 +78,17 @@ body
 
 /* Fin du bandeau */
 
+/* Pied de page commun à toutes les pages */
+
+#footer
+{
+	width : 100%;
+	height : 250px;
+	background-color : #373736;
+}
+
+/* Fin du pied de page */
+
 /* Contenu de la page de garde */
 
 #pagedegarde
