@@ -5,6 +5,8 @@ body
 	color : white;
 }
 
+/* Bandeau commun à toutes les pages */ 
+
 #en-tete
 {
 	background-color : lightgrey;
@@ -73,6 +75,10 @@ body
 	border-width : 0px;
 	display : inline;
 }
+
+/* Fin du bandeau */
+
+/* Contenu de la page de garde */
 
 #pagedegarde
 {
@@ -163,3 +169,4 @@ ul
 	width : 100%;
 }
 	
+ /* fin contenu page garde */
