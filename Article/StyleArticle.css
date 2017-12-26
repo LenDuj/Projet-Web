@@ -5,8 +5,6 @@ body
 	color : white;
 }
 
-/* Bandeau commun à toutes les pages */ 
-
 #en-tete
 {
 	background-color : lightgrey;
@@ -76,10 +74,6 @@ body
 	display : inline;
 }
 
-/* Fin du bandeau */
-
-/* Pied de page commun à toutes les pages */
-
 #footer
 {
 	width : 100%;
@@ -87,17 +81,13 @@ body
 	background-color : #373736;
 }
 
-/* Fin du pied de page */
-
-/* Contenu de la page de garde */
-
-#pagedegarde
+#article
 {
 	height : 100%;
 	width : 100%;
 }
 
-#logoh1
+#articlebob
 {
 	height : 150px;
 	vertical-align : middle;
@@ -106,41 +96,20 @@ body
 	align-items : center;
 }
 
-#logo_h1
+#article h1
 {
-	z-index : 1;
-	position : relative;
-	height : 90%;
-	margin-right : -5%;
+	font-family: fantasy;
+	font-size: 3em;
 }
 
-#pagedegarde h1
+#article tr
 {
-	z-index : 2;
-	position : relative;
-	font-family : fantasy ;
-	font-size : 3em;
-	margin : 0px;
+	width: 100%;
 }
 
-#pagedegarde h2
+#article td
 {
-	padding-left : 1%;
-}
-
-#pagedegarde td
-{
-	height : 25%;
-}
-
-#pagedegarde td:nth-child(even)
-{
-	width : 22.22%;
-}
-
-#pagedegarde td:nth-child(odd)
-{
-	width : 11.11%;
+	width: 50%;
 }
 
 .Panier
@@ -150,8 +119,8 @@ body
 	border-color : blue;
 	background-color : blue;
 	border-radius : 10px;
-	height : 30px;
-	width : 150px;
+	height : 50px;
+	width : 170px;
 	align-items : center;
 	margin-left : 40px;
 }
@@ -168,7 +137,12 @@ ul
 	margin-top : 0px;
 }
 
-#Marley, #WTF, #Rap
+li
+{
+	font-size: 30px;
+}
+
+#Marley
 {
 	margin-bottom : 40px;
 	margin-left : 5%;
@@ -179,5 +153,4 @@ ul
 	border-radius : 10px;
 	width : 100%;
 }
-	
- /* fin contenu page garde */
+
