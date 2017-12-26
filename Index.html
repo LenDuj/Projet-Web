@@ -3,31 +3,37 @@
 <html>
   <head>
     <meta charset="utf-8">
+	<link rel="icon" href="Marijuana.png" />
     <link rel="stylesheet" type="text/css" href="StyleWebMusic.css">
-    <title>P DLT DJ-Weed</title>
+    <title>P Dlt DJ-Weed</title>
   </head>
   <body>
-	<table id='en-tete'>
-		<tr>
-			<td id='Bienvenue'>
-				<h1>Bienvenue sur P DLT DJ-Weed</h1>
-			</td>
-			<td>Mon panier</td>
-			<td id='Rechercher'>
-				<input type="text" placeholder="Rechercher">
-			<!-- </td> -->
-			<!-- <td id='Rechercher-Img'> -->
-				<img src='loupe.png' alt='recherche'>
-			</td>
-		</tr>
-	</table>
+	<div id='en-tete'>
+		<div id='div_logo'><img id='logo' src='Marijuana.png' alt='Logo'/></div>
+		<div class='header_text'>
+			Mon panier
+			<img id='Panier' src='Panier.png' alt='Panier'/>
+		</div>
+		<div class='header_text'>
+			Profil
+			<img id='Profil' src='Profil.png' alt='Profil'/>
+		</div>
+		<div class='header_text' id='Rechercher'>
+			<img id='imgloupe' src='loupe.png' alt='loupe'/>
+			<input id='inputrechercher' type='text' placeholder='Rechercher...'/>
+		</div>
+	</div>
 	<section id='pagedegarde'>
-		<h2>Les promotions du moment</h2>
+		<div style='text-align:center' id='logoh1'>
+			<img id='logo_h1' src='Marijuana.png' alt='Logo'/>
+			<h1>Bienvenue chez P Dlt DJ-Weed</h1>
+		</div>
+		<div><h2>Les promotions du moment</h2></div>
 		<table id='Marley'>
 			<tr><th><h3>Bob Marley</h3></th></tr>
 			<tr>
 				<td>
-					<img src='BobMarleyNaturalMystic.jpg' alt='Natural mystic BM'>
+					<img class='jaquette_img' src='BobMarleyNaturalMystic.jpg' alt='Natural mystic BM'>
 				</td>
 				<td>
 					<ul>
@@ -37,11 +43,14 @@
 						<li>Genre : Reggae</li>
 						<li>Date de sortie : 23 mai 1995</li>
 						<li>Prix : 2,99€</li>
-						<li class='Panier'>Ajouter au panier</li>
 					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
 				</td>
 				<td>
-					<img src='BobMarleySIS.jpg' alt='Sun is shining BM'>
+					<img class='jaquette_img' src='BobMarleySIS.jpg' alt='Sun is shining BM'>
 				</td>	
 				<td>
 					<ul>
@@ -51,11 +60,14 @@
 						<li>Genre : Reggae</li>
 						<li>Date de sortie : 23 mars 1978</li>
 						<li>Prix : 2,99€</li>
-						<li class='Panier'>Ajouter au panier</li>
 					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier	</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
 				</td>
 				<td>
-					<img src='BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
+					<img class='jaquette_img' src='BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
 				</td>
 				<td>
 					<ul>
@@ -65,18 +77,126 @@
 						<li>Genre : Reggae</li>
 						<li>Date de sortie : 1983</li>
 						<li>Prix : 3,49€</li>
-						<li class='Panier'>Ajouter au panier</li>
 					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
 				</td>
 			</tr>
 		</table>
-		<section id='WTF'>
-			<h3>Weed WTF</h3>
-		</section>
-		<section id='Rap'>
-			<h3>Weed Rap</h3>
-		</section>
-		
+		<table id='WTF'>
+			<tr><th><h3>Weed WTF</h3></th></tr>
+			<tr>
+				<td>
+					<img class='jaquette_img' src='BobMarleyNaturalMystic.jpg' alt='Natural mystic BM'>
+				</td>
+				<td>
+					<ul>
+						<li>Titre : Natural Mystic</li>
+						<li>Auteur : Bob Marley</li>
+						<li>Label : Tuff Gong</li>
+						<li>Genre : Reggae</li>
+						<li>Date de sortie : 23 mai 1995</li>
+						<li>Prix : 2,99€</li>
+					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
+				</td>
+				<td>
+					<img class='jaquette_img' src='BobMarleySIS.jpg' alt='Sun is shining BM'>
+				</td>	
+				<td>
+					<ul>
+						<li>Titre : Sun is shining</li>
+						<li>Auteur : Bob Marley</li>
+						<li>Label : Tuff Gong</li>
+						<li>Genre : Reggae</li>
+						<li>Date de sortie : 23 mars 1978</li>
+						<li>Prix : 2,99€</li>
+					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier	</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
+				</td>
+				<td>
+					<img class='jaquette_img' src='BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
+				</td>
+				<td>
+					<ul>
+						<li>Titre : Buffalo Soldier</li>
+						<li>Auteur : Bob Marley</li>
+						<li>Label : Tuff Gong</li>
+						<li>Genre : Reggae</li>
+						<li>Date de sortie : 1983</li>
+						<li>Prix : 3,49€</li>
+					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<table id='Rap'>
+			<tr><th><h3>Weed Rap</h3></th></tr>
+			<tr>
+				<td>
+					<img class='jaquette_img' src='BobMarleyNaturalMystic.jpg' alt='Natural mystic BM'>
+				</td>
+				<td>
+					<ul>
+						<li>Titre : Natural Mystic</li>
+						<li>Auteur : Bob Marley</li>
+						<li>Label : Tuff Gong</li>
+						<li>Genre : Reggae</li>
+						<li>Date de sortie : 23 mai 1995</li>
+						<li>Prix : 2,99€</li>
+					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
+				</td>
+				<td>
+					<img class='jaquette_img' src='BobMarleySIS.jpg' alt='Sun is shining BM'>
+				</td>	
+				<td>
+					<ul>
+						<li>Titre : Sun is shining</li>
+						<li>Auteur : Bob Marley</li>
+						<li>Label : Tuff Gong</li>
+						<li>Genre : Reggae</li>
+						<li>Date de sortie : 23 mars 1978</li>
+						<li>Prix : 2,99€</li>
+					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier	</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
+				</td>
+				<td>
+					<img class='jaquette_img' src='BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
+				</td>
+				<td>
+					<ul>
+						<li>Titre : Buffalo Soldier</li>
+						<li>Auteur : Bob Marley</li>
+						<li>Label : Tuff Gong</li>
+						<li>Genre : Reggae</li>
+						<li>Date de sortie : 1983</li>
+						<li>Prix : 3,49€</li>
+					</ul>
+					<div class='Panier'>
+						<div class='panier_text'>Ajouter au panier</div>
+						<img class='Panier-ajout' src='Panier entrant.png' alt='Panier-ajout'/>
+					</div>
+				</td>
+			</tr>
+		</table>
 	</section>
   </body>
   
