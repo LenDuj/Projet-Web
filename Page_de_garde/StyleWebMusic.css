@@ -133,6 +133,12 @@ body
 	height : 25%;
 }
 
+.jaquette_img
+{
+	border-radius : 10px;
+	width : 100%;
+}
+
 #pagedegarde td:nth-child(even)
 {
 	width : 22.22%;
@@ -174,10 +180,5 @@ ul
 	margin-left : 5%;
 }
 
-.jaquette_img
-{
-	border-radius : 10px;
-	width : 100%;
-}
 	
  /* fin contenu page garde */
