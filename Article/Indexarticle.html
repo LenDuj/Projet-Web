@@ -10,7 +10,7 @@
   <body>
 	<!-- Début bandeau -->
 	<section id='en-tete'>
-		<div id='div_logo'><a href="../Page_de_garde/Index.html"><img id='logo' src='../Logos_en-tete/Marijuana.png' alt='Logo'/></div></a>
+		<div id='div_logo'><a href="../Page_de_garde/Index.html"><img id='logo' src='../Logos_en-tete/Marijuana.png' alt='Logo'/></a></div>
 		<div class='header_text'>
 			Mon panier
 			<img id='Panier' src='../Logos_en-tete/Panier.png' alt='Panier'/>
@@ -32,7 +32,7 @@
 		<table id='Marley'>
 			<tr>				
 				<td>
-					<a href="../Article/Indexarticle.html"><img class='jaquette_img' src='../Page_de_garde/Jaquettes/Marley/BobMarleyBS.jpg' alt='Buffalo Soldier BM'></a>
+					<img class='jaquette_img' src='../Page_de_garde/Jaquettes/Marley/BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
 				</td>
 				<td>
 					<ul>
@@ -48,12 +48,39 @@
 						<img class='Panier-ajout' src='../Page_de_garde/Panier-entrant.png' alt='Panier-ajout'/>
 					</div>
 				</td>
+				<td>
+					<video src="BuffaloSoldier.mp4" controls poster="../Page_de_garde/Jaquettes/Marley/BobMarleyBS.jpg"></video>
+				</td>
 			</tr>
 		</table>
 	</section>
 	<section id="description">
-		<div id="titre">
+		<div class="titre">
+			<h1>Description</h1>
 		</div>
+		<p style="text-indent: 20px">Le morceau Buffalo Soldier, écrit par Bob Marley et King Sporty, est l'un de leurs morceaux les plus connus, sorti pour la première fois en 1983 sur l'album
+		Confrontation. De nombreux Jamaïcains, particulièrement des rastafaris comme Bob Marley, considéraient les Buffalo Soldiers comme un exemple marquant 
+		des Noirs ayant réussi avec courage, honneur et distinction à se frayer un chemin sur une route dominée par les Blancs et malgré le racisme présent à 
+		cette époque.</p>
+	</section>
+	<section id="commentaires">
+		<div class="titre">
+			<h1>Commentaire</h1>
+		</div>
+		<form>
+			<table>
+				<tr><th colspan=2>Laisser un commentaire</th></tr>
+				<tr><td><label for="name">Nom :</label></td>
+					<td><input placeholder="nom" id="name"></td>
+				</tr>
+				<tr>
+					<td><label for="gname">Prénom :</label></td>
+					<td><input placeholder="prenom" id="gname"></td>
+				</tr>
+			</table>
+			<textarea placeholder="Insérer votre commentaire"></textarea>
+			<button type=submit>Enregistrer</button>
+		</form>
 	</section>
 	<footer id="footer">
 	

@@ -5,6 +5,8 @@ body
 	color : white;
 }
 
+/* Bandeau commun à toutes les pages */ 
+
 #en-tete
 {
 	background-color : lightgrey;
@@ -74,12 +76,18 @@ body
 	display : inline;
 }
 
+/* Fin du bandeau */
+
+/* Pied de page commun à toutes les pages */
+
 #footer
 {
 	width : 100%;
 	height : 250px;
 	background-color : #373736;
 }
+
+/* Fin du pied de page */
 
 #article
 {
@@ -99,7 +107,7 @@ body
 #article h1
 {
 	font-family: fantasy;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 #article tr
@@ -107,9 +115,20 @@ body
 	width: 100%;
 }
 
+#article table
+{
+	border-spacing: 40px;
+	justify-content: center;
+}
+
 #article td
 {
-	width: 50%;
+	width: 33,33%;
+}
+
+video
+{
+	width: 85%;
 }
 
 .Panier
@@ -144,7 +163,7 @@ li
 
 #Marley
 {
-	margin-bottom : 40px;
+	margin-bottom : 3%;
 	margin-left : 5%;
 }
 
@@ -154,3 +173,46 @@ li
 	width : 100%;
 }
 
+#description
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	border-top: 5px solid white;
+	border-radius: 10px;
+}
+
+.titre
+{
+	font-size: 20px;
+}
+
+#description p
+{
+	font-size: 18px;
+	text-align: justify;
+}
+
+#commentaires
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	border-top: 5px solid white;
+	border-radius: 10px;
+}
+
+form
+{
+	margin-left: 5%;
+}
+
+textarea
+{
+	width: 95%;
+}
+
+#commentaires table
+{
+	font-size: 18px;
+}
