@@ -181,9 +181,15 @@ body
 	justify-content: center;
 }
 
+
 #article td
 {
 	width: 33,33%;
+}
+
+#article td p
+{
+	font-size: 2em;
 }
 
 video
@@ -264,6 +270,11 @@ ul
 form
 {
 	margin-left: 5%;
+}
+
+form table
+{
+	width: 95%;
 }
 
 textarea
