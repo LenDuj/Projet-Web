@@ -149,6 +149,12 @@ body
 
 /* Fin du pied de page */
 
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
 #article
 {
 	height : 100%;

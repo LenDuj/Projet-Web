@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 	<link rel="icon" href="../Logos_en-tete/Fleur_eucalyptus.png"/>
-    <link rel="stylesheet" type="text/css" href="StyleArticle.css">
+    <link rel="stylesheet" type="text/css" href="StyleCommande.css">
     <title>P Dlt DJ-Fleur d'eucalyptus</title>
   </head>
   <body>
@@ -25,49 +25,54 @@
 		</div>
 	</section>
 	<!-- fin bandeau -->
-	<section id='article'>
-		<div style='text-align:center' id='articlebob'>
-			<h1>Buffalo Soldier de Bob Marley</h1>
-		</div>
-		<table id='Marley'>
-			<tr>				
-				<td>
+	<section id='ValidCommande'>
+		<div style='text-align:left' id='Titre'><img id='Panier2' src='../Logos_en-tete/Panier.png' alt='Panier'/><h1>Panier</h1></div>
+		<table id='Tableau'>
+			<tr>
+				<th>Article livré à domicile</th>
+				<th>Disponibilité</th>
+				<th>Quantité</th>
+				<th>Prix Unitaire</th>
+			</tr>
+			<tr>
+				<td align=center>
 					<img class='jaquette_img' src='../Page_de_garde/Jaquettes/Marley/BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
+					Bob Marley Buffalo Soldier
 				</td>
-				<td>
-					<p>Achetez Buffalo Soldier, un des titres de reggae les plus connus de Bob Marley sorti en 1983 et pour seulement 3,49€</p>
-					<div class='Panier'>
-						<div class='panier_text'>Ajouter au panier</div>
-						<img class='Panier-ajout' src='../Page_de_garde/Panier-entrant.png' alt='Panier-ajout'/>
-					</div>
+				<td align=center>
+					<p>Infinie</p>
 				</td>
-				<td>
-					<video src="BuffaloSoldier.mp4" controls poster="../Page_de_garde/Jaquettes/Marley/BobMarleyBS.jpg"></video>
+				<td align=center>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+					</select>
+				</td>
+				<td align=center>
+					<p>3,49€</p>
 				</td>
 			</tr>
 		</table>
-	</section>
-	<section id="description">
-		<div class="titre">
-			<h1>Description</h1>
-		</div>
-		<p style="text-indent: 20px">Le morceau Buffalo Soldier, écrit par Bob Marley et King Sporty, est l'un de leurs morceaux les plus connus, sorti pour la première fois en 1983 sur l'album
-		Confrontation. De nombreux Jamaïcains, particulièrement des rastafaris comme Bob Marley, considéraient les Buffalo Soldiers comme un exemple marquant 
-		des Noirs ayant réussi avec courage, honneur et distinction à se frayer un chemin sur une route dominée par les Blancs et malgré le racisme présent à 
-		cette époque.</p>
-	</section>
-	<section id="commentaires">
-		<div class="titre">
-			<h1>Commentaire</h1>
+		<div id="total">
+			<p>TOTAL : 300€ (parce que c'est vous)</p>
 		</div>
 		<form>
-			<table>
-				<tr><th>Laisser un commentaire</th></tr>
-				<tr><td><textarea placeholder="Insérer votre commentaire"></textarea></td></tr>
-				<tr><td><button type=submit>Enregistrer</button></td></tr>
-			</table>
+			<h2>Saisir les coordonnées de livraison:</h2>
+			<input name="n°r" placeholder="N° de rue(facultatif)">
+			<input name="nor" placeholder="Nom de rue">
+			<input name="cp" placeholder="Code postal">
+			<input name="nv" placeholder="Nom Ville/Village">
+			<input name="np" placeholder="Nom Pays">
+			<button>Valider commande</button>
 		</form>
-	</section>
+	</section>	
 	<footer id="footer">
 		<div id='Infos'>
 			<div id='Infos_pratiques'>
