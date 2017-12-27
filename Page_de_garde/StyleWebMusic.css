@@ -213,8 +213,7 @@ body
 {
 	display : flex;
 	padding: 0px 0px 0px 10px;
-	border-color : blue;
-	background-color : blue;
+	background-color : #554CE2;
 	border-radius : 10px;
 	height : 30px;
 	width : 150px;
