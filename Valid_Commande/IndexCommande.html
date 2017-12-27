@@ -27,6 +27,7 @@
 	<!-- fin bandeau -->
 	<section id='ValidCommande'>
 		<div style='text-align:left' id='Titre'><img id='Panier2' src='../Logos_en-tete/Panier.png' alt='Panier'/><h1>Panier</h1></div>
+		<h2 id='recap'>Récapitulatif de votre commande</h2>
 		<table id='Tableau'>
 			<tr>
 				<th>Article livré à domicile</th>
@@ -60,18 +61,109 @@
 				</td>
 			</tr>
 		</table>
-		<div id="total">
-			<p>TOTAL : 300€ (parce que c'est vous)</p>
+		<div id='ValidCommande_text'>
+			<h2>Étape 1 : Saisir les coordonnées de livraison</h2>
+			<div id='formul'>
+				<table>
+					<tbody>
+						<tr>
+						  <td><label for="nom">Nom:</label></td>
+						  <td><label for="prenom">Prénom:</label></td>
+						</tr>
+						<tr>
+						  <td><input id="nom"></td>
+						  <td><input id="prenom"></td>
+						</tr>
+						<tr>
+						  <td colspan="2">Adresse (<label for="rue">rue</label>,
+												 <label for="ville">ville</label>,
+												 <label for="pays">pays</label>):</td>
+						</tr>
+						<tr>
+						  <td colspan="2"><input id="rue" style="width:100%"></td>
+						</tr>
+						<tr>
+						  <td colspan="2"><input id="ville" style="width:100%"></td>
+						</tr>
+						<tr>
+						  <td colspan="2"><input id="pays" style="width:100%"></td>
+						</tr>
+						<tr>
+						  <td><label for="code_postal">Code Postal:</label></td>
+						  <td><input type="text" id="code_postal"></td>
+						</tr>
+						<tr>
+						  <td><label for="telephone">Téléphone:</label></td>
+						  <td><input type="text" id="telephone"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2>Étape 2 : Choisir un moyen de payement</h2>
+			<div id='Coord_Banc'>
+				<img id='Logo_CB' src='Logo_CB.png' alt='Logo_CB'/>
+				<table id='CB'>
+					<tr>
+						<td><label for='Num_CB'>Numéro de la carte :</label></td>
+						<td><input type="text" id="Num_CB"/></td>
+					</tr>
+					<tr>
+						<td><label for='Nom_Tit'>Nom du titulaire de la carte :</label></td>
+						<td><input type="text" id='Nom_Tit'/></td>
+					</tr>
+					<tr>
+					<td><label for='cvv'>CVV :</label></td>
+						<td><input type="text" id='cvv'/></td>
+					</tr>
+					<tr>
+						<td colspan='1'><label for='dat_exp'>Date d'expiration :</label></td>
+						<td>
+							<select id='mois'>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+							</select>
+							<select id="annee">
+								<option>2017</option>
+								<option>2018</option>
+								<option>2019</option>
+								<option>2020</option>
+								<option>2021</option>
+								<option>2022</option>
+								<option>2023</option>
+								<option>2024</option>
+								<option>2025</option>
+								<option>2026</option>
+								<option>2027</option>
+								<option>2028</option>
+								<option>2029</option>
+								<option>2030</option>
+								<option>2031</option>
+								<option>2032</option>
+								<option>2033</option>
+								<option>2034</option>
+								<option>2035</option>
+								<option>2036</option>
+								<option>2037</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="total">
+				<p>TOTAL : 300€ (parce que c'est vous)</p>
+			</div>
+			<button id='Valider'>Valider ma commande</button>
 		</div>
-		<form>
-			<h2>Saisir les coordonnées de livraison:</h2>
-			<input name="n°r" placeholder="N° de rue(facultatif)">
-			<input name="nor" placeholder="Nom de rue">
-			<input name="cp" placeholder="Code postal">
-			<input name="nv" placeholder="Nom Ville/Village">
-			<input name="np" placeholder="Nom Pays">
-			<button>Valider commande</button>
-		</form>
 	</section>	
 	<footer id="footer">
 		<div id='Infos'>

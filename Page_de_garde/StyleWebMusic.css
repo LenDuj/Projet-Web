@@ -1,10 +1,5 @@
 body
-{
-	margin : 0%;
-	background-image : url("../FondPage.jpg");
-	background-attachment : fixed;
-	color : white;
-}
+{margin: 0%;background-image: url("../FondPage.jpg");background-attachment: fixed;color: white;}
 
 /* Bandeau commun à toutes les pages */ 
 
@@ -21,6 +16,12 @@ body
 	justify-content: center;
 	align-items: center;	
 }
+
+#en-tete a
+{text-decoration: none;color: white;}
+
+#en-tete input
+{color: white;}
 
 .header_text
 {
@@ -151,12 +152,6 @@ body
 
 /* Contenu de la page de garde */
 
-a
-{
-	text-decoration: none;
-	color: white;
-}
-
 #pagedegarde
 {
 	height : 100%;
@@ -245,5 +240,4 @@ ul
 	margin-left : 5%;
 }
 
-	
  /* fin contenu page garde */
