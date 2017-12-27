@@ -157,7 +157,7 @@ body
 	justify-content : center;
 	align-items : center;
 	width : 100%;
-	height : 1000px;;
+	height : 100em;
 }
 
 #zone_résultat
@@ -165,10 +165,12 @@ body
 	color : black;
 	display : flex;
 	flex-direction : column; 
+	justify-content : space-between;
 	border-radius : 20px;
 	width : 50%;
 	height : 90%;
 	background-color : white;
+	padding-bottom : 5%;
 }
 
 #Résultats_titre
@@ -177,4 +179,15 @@ body
 	font-size : 2em;
 }
 
+.Résultats_articles
+{
+	height : 15%;
+	width : 100%;
+	margin-left : 5%;
+}
+
+.Résultats_jaquettes
+{
+	height : 100%;
+}
  /* fin contenu de la page Recherche_Article */
