@@ -155,7 +155,7 @@ body
 {display: flex;justify-content: center;align-items: center;width: 100%;height: 100em;}
 
 #zone_résultat
-{color: black;display: flex;flex-direction: column;justify-content: space-between;border-radius: 20px;width: 50%;height: 90%;background-color: white;}
+{color: black;display: flex;flex-direction: column;justify-content: space-between;border-radius: 20px;width: 50%;height: 90%;background-color: white;padding-bottom: 1%;}
 
 #Résultats_titre
 {margin-left: 5%;font-size: 2em;margin-bottom: 0%;}
@@ -218,4 +218,10 @@ body
 	border-radius : 10px;
 	height : 100%;
 }
+
+#Plus_de_résultats
+{display: flex;flex-direction: column;align-items: center;width: 20%;margin-left: 40%;height: 2.8%;background-color: lightgrey;border: 0.5px solid black;border-radius: 7.5px;padding: 0.2% 0% 0% 0%;}
+
+#arrow_down
+{height : 50%;}
  /* fin contenu de la page Recherche_Article */
