@@ -9,7 +9,7 @@
   </head>
   <body>
 	<!-- Début bandeau -->
-	<section id='en-tete'>
+	<header id='en-tete'>
 		<div id='div_logo'><a href="../Page_de_garde/Index.html"><img id='logo' src='../Logos_en-tete/Fleur_eucalyptus.png' alt='Logo'/></a></div>
 		<div class='header_text'><a href="../Valid_Commande/IndexCommande.html">
 			Mon panier
@@ -23,41 +23,49 @@
 		<a href="../Recherche_article/IndexRecherche.html"><img id='imgloupe' src='../Logos_en-tete/loupe.png' alt='loupe'/></a>
 			<input id='inputrechercher' type='text' placeholder='Rechercher...'/>
 		</div>
-	</section>
+	</header>
 	<!-- fin bandeau -->
 	<section id='ValidCommande'>
 		<div style='text-align:left' id='Titre'><img id='Panier2' src='../Logos_en-tete/Panier.png' alt='Panier'/><h1>Panier</h1></div>
 		<h2 id='recap'>Récapitulatif de votre commande</h2>
 		<table id='Tableau'>
 			<tr>
-				<th>Article livré à domicile</th>
-				<th>Disponibilité</th>
-				<th>Quantité</th>
-				<th>Prix Unitaire</th>
+					<th>Article livré à domicile</th>
+					<th>Disponibilité</th>
+					<th>Quantité</th>
+					<th>Prix Unitaire</th>
 			</tr>
 			<tr>
-				<td align=center>
-					<img class='jaquette_img' src='../Page_de_garde/Jaquettes/Marley/BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
-					Bob Marley Buffalo Soldier
+				<td>
+					<div class='center_td'>
+						<img class='jaquette_img' src='../Page_de_garde/Jaquettes/Marley/BobMarleyBS.jpg' alt='Buffalo Soldier BM'>
+						Bob Marley Buffalo Soldier
+					</div>
 				</td>
-				<td align=center>
-					<p>Infinie</p>
+				<td>
+					<div class='center_td'>
+						<p>Infinie</p>
+					</div>
 				</td>
-				<td align=center>
-					<select>
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-						<option>5</option>
-						<option>6</option>
-						<option>7</option>
-						<option>8</option>
-						<option>9</option>
-					</select>
+				<td>
+					<div class='center_td'>
+						<select>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</select>
+					</div>
 				</td>
-				<td align=center>
-					<p>3,49€</p>
+				<td>
+					<div class='center_td'>
+						<p>3,49€</p>
+					</div>
 				</td>
 			</tr>
 		</table>
@@ -98,6 +106,7 @@
 						</tr>
 					</tbody>
 				</table>
+			<!-- Tableau fortement inspiré de :	http://liris.cnrs.fr/~pchampin/enseignement/intro-web/html.html#tableaux -->
 			</div>
 			<h2>Étape 2 : Choisir un moyen de payement</h2>
 			<div id='Coord_Banc'>
@@ -116,7 +125,7 @@
 						<td><input type="text" id='cvv'/></td>
 					</tr>
 					<tr>
-						<td colspan='1'><label for='dat_exp'>Date d'expiration :</label></td>
+						<td colspan='1'><label>Date d'expiration :</label></td>
 						<td>
 							<select id='mois'>
 								<option>1</option>
@@ -179,12 +188,12 @@
 			</div>
 			<div id='Suivez-nous'>
 				<h3>Suivez-nous</h3>
-				<table>
+				<table><tr>
 					<td class='logo_SN'><img src='../Logos_SN/Fb_logo.png' alt='Facebook'/></td>
 					<td class='logo_SN'><img src='../Logos_SN/Twitter_logo.png' alt='Twitter'/></td>
 					<td class='logo_SN'><img src='../Logos_SN/google-plus_logo.png' alt='Google+'/></td>
 					<td class='logo_SN'><img src='../Logos_SN/Insta_logo.png' alt='Instagram'/></td>
-				</table>
+				</tr></table>
 			</div>
 		</div>
 		<div id='Langage'>

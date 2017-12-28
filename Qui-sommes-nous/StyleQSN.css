@@ -2,15 +2,14 @@ body
 {margin: 0%; background-image: url("../FondPage.jpg"); background-attachment: fixed; color: white;}
 
 /* Bandeau commun à toutes les pages */ 
-
-#en-tete
-{background-color: lightgrey; font-size: 16px; padding-top: 0px; padding-bottom: 0px; color: white; width: 100%; min-height: 40px; display: flex; justify-content: center; align-items: center;}
-
 #en-tete a
 {text-decoration: none; color: white;}
 
 #en-tete input
 {color: white;}
+
+#en-tete
+{background-color: lightgrey; font-size: 16px; padding-top: 0px; padding-bottom: 0px; color: white; width: 100%; min-height: 40px; display: flex; justify-content: center; align-items: center;}
 
 .header_text
 {background-color: #24292e; padding: 2px 5px 2px 5px; display: inline-block; height: 20px; border-radius: 5px; margin: 0px 20px; min-width: 100px;}
@@ -18,14 +17,14 @@ body
 #div_logo
 {display: inline-block; width: 25px; height: 25px; padding: 5px; border-radius: 20px; background-color: white; border: 1px solid black; margin-right: 5%;}
 
-#logo, #div_Search
+#logo, #div_Search,#imgloupe,#Panier, #Profil
 {height: 100%;}
 
 #imgloupe
-{height: 100%; float: left; margin-right: 5%;}
+{float: left; margin-right: 5%;}
 
 #Panier, #Profil
-{height: 100%; float: right; margin-left: 5%;}
+{float: right; margin-left: 5%;}
 
 #inputrechercher
 {background-color: #24292e; width: 80%; border-width: 0px; display: inline;}
@@ -63,45 +62,23 @@ body
 
 /* Fin du pied de page */
 
-/* Contenu de la page de garde */
+/* Contenu qui sommes-nous */
 
-#pagedegarde
-{height: 100%; width: 100%;}
+#content-zone
+{display: flex; flex-direction: column; align-items: center;}
 
-#logoh1{
-height: 150px; vertical-align: middle; display: flex; justify-content: center; align-items: center;}
+#createurs_img
+{display: flex; height: 250px; width: 40%; justify-content: space-between; padding-top: 20px;}
 
-#logo_h1
-{z-index: 1; position: relative; height: 90%; margin-right: -5%;}
+.createur
+{display: flex; width: 250px; flex-direction: column; align-items: center;}
 
-#pagedegarde h1
-{z-index: 2; position: relative; font-family: fantasy ; font-size: 3em; margin: 0px;}
+#createurs_img img
+{height: 80%; margin-bottom: 10px; border-radius: 10px;}
 
-#pagedegarde h2
-{padding-left: 1%;}
+#paragraph
+{width: 50%;}
 
-#pagedegarde td
-{height: 25%;}
-
-.jaquette_img
-{border-radius: 10px; width: 100%;}
-
-#pagedegarde td:nth-child(even)
-{width: 22.22%;}
-
-#pagedegarde td:nth-child(odd)
-{width: 11.11%;}
-
-.Panier
-{display: flex; padding: 0px 0px 0px 10px; background-color: #554CE2; border-radius: 10px; height: 30px; width: 150px; align-items: center; margin-left: 40px;}
-
-.Panier-ajout
-{height: 100%; float: right; margin-left: 2%;}
-
-ul
-{margin-top: 0px;}
-
-#Marley, #WTF, #Rap
-{margin-bottom: 40px; margin-left: 5%;}
-
-/* fin contenu page garde */
+#remerciements
+{margin-top: 50px;}
+/* Fin contenu qui sommes-nous */

@@ -1,62 +1,62 @@
 body
-{margin: 0%;background-image: url("../FondPage.jpg");background-attachment: fixed;color: white;}
+{margin: 0%; background-image: url("../FondPage.jpg"); background-attachment: fixed; color: white;}
 
 /* Bandeau commun à toutes les pages */ 
 
 #en-tete
-{background-color: lightgrey;font-size: 16px;padding-top: 0px;padding-bottom: 0px;color: white;width: 100%;min-height: 40px;display: flex;justify-content: center;align-items: center;}
+{background-color: lightgrey; font-size: 16px; padding-top: 0px; padding-bottom: 0px; color: white; width: 100%; min-height: 40px; display: flex; justify-content: center; align-items: center;}
 
 #en-tete a
-{text-decoration: none;color: white;}
+{text-decoration: none; color: white;}
 
 #en-tete input
 {color: white;}
 
 .header_text
-{background-color: #24292e;padding: 2px 5px 2px 5px;display: inline-block;height: 20px;border-radius: 5px;margin: 0px 20px;min-width: 100px;}
+{background-color: #24292e; padding: 2px 5px 2px 5px; display: inline-block; height: 20px; border-radius: 5px; margin: 0px 20px; min-width: 100px;}
 
 #div_logo
-{display: inline-block;width: 25px;height: 25px;padding: 5px;border-radius: 20px;background-color: white;border: 1px solid black;margin-right: 5%;}
+{display: inline-block; width: 25px; height: 25px; padding: 5px; border-radius: 20px; background-color: white; border: 1px solid black; margin-right: 5%;}
 
 #logo, #div_Search
 {height: 100%;}
 
 #imgloupe
-{height: 100%;float: left;margin-right: 5%;}
+{height: 100%; float: left; margin-right: 5%;}
 
 #Panier, #Profil
-{height: 100%;float: right;margin-left: 5%;}
+{height: 100%; float: right; margin-left: 5%;}
 
 #inputrechercher
-{background-color: #24292e;width: 80%;border-width: 0px;display: inline;}
+{background-color: #24292e; width: 80%; border-width: 0px; display: inline;}
 
 /* Fin du bandeau */
 
 /* Pied de page commun à toutes les pages */
 
 #footer
-{display: flex;width: 100%;height: 200px;background-color: #373736;align-items: center;flex-direction: column;}
+{display: flex; width: 100%; height: 200px; background-color: #373736; align-items: center; flex-direction: column;}
 
 #Infos
-{display: flex;width: 40%;height: 80%;border-bottom: 2px solid lightgrey;border-radius: 5px;justify-content: space-between;}
+{display: flex; width: 40%; height: 80%; border-bottom: 2px solid lightgrey; border-radius: 5px; justify-content: space-between;}
 
 #Infos_pratiques h3
 {margin-bottom: 5%;}
 
 #footer ul
-{padding: 0%;color: lightgrey;list-style-type: none;}
+{padding: 0%; color: lightgrey; list-style-type: none;}
 
 #Suivez-nous h3, #Suivez-nous td
 {padding-left: 10px;}
 
 #Langage
-{display: flex;width: 40%;height: 20%;justify-content: flex-end;}
+{display: flex; width: 40%; height: 20%; justify-content: flex-end;}
 
 .Langue
 {margin-left: 10%;}
 
 .logo_SN
-{height: 20px;width: 20px;}
+{height: 20px; width: 20px;}
 
 .logo_SN img
 {height: 100%;}
@@ -64,23 +64,19 @@ body
 /* Fin du pied de page */
 
 #article
-{height: 100%;width: 100%;}
+{height: 100%; width: 100%;}
 
 #articlebob
-{height: 150px;vertical-align: middle;display: flex;justify-content: center;align-items: center;}
+{height: 150px; vertical-align: middle; display: flex; justify-content: center; align-items: center;}
 
 #article h1
-{font-family: fantasy;font-size: 2em;}
+{font-family: fantasy; font-size: 2em;}
 
 #article tr
 {width: 100%;}
 
 #article table
-{border-spacing: 40px;justify-content: center;}
-
-
-#article td
-{width: 33,33%;}
+{border-spacing: 40px; justify-content: center;}
 
 #article td p
 {font-size: 2em;}
@@ -90,10 +86,10 @@ video
 
 .Panier
 {
-display: flex;padding: 0px 0px 0px 10px;background-color: #554CE2;border-radius: 10px;height: 50px;width: 170px;align-items: center;margin-left: 40px;}
+display: flex; padding: 0px 0px 0px 10px; background-color: #554CE2; border-radius: 10px; height: 50px; width: 170px; align-items: center; margin-left: 40px;}
 
 .Panier-ajout
-{height: 100%;float: right;margin-left: 2%;}
+{height: 100%; float: right; margin-left: 2%;}
 
 ul
 {margin-top: 0px;}
@@ -102,25 +98,25 @@ ul
 {font-size: 30px;}
 
 #Marley
-{margin-bottom: 3%;margin-left: 5%;}
+{margin-bottom: 3%; margin-left: 5%;}
 
 .jaquette_img
-{border-radius: 10px;width: 100%;}
+{border-radius: 10px; width: 100%;}
 
 #description
-{margin-left: 5%;margin-right: 5%;margin-bottom: 3%;border-top: 5px solid white;border-radius: 10px;}
+{margin-left: 5%; margin-right: 5%; margin-bottom: 3%; border-top: 5px solid white; border-radius: 10px;}
 
 .titre
 {font-size: 20px;}
 
 #description p
-{font-size: 18px;text-align: justify;}
+{font-size: 18px; text-align: justify;}
 
 #commentaires
-{margin-left: 5%;margin-right: 5%;margin-bottom: 3%;border-top: 5px solid white;border-radius: 10px;}
+{margin-left: 5%; margin-right: 5%; margin-bottom: 3%; border-top: 5px solid white; border-radius: 10px;}
 
 #L_U_C
-{float: left;margin-bottom : 1%;}
+{float: left; margin-bottom : 1%;}
 
 form
 {margin-left: 5%;}
@@ -129,7 +125,7 @@ form table,textarea
 {width: 95%;}
 
 #zone_commentaires
-{width: 80%;background-color: lightgrey;border: 0.5px solid white;border-radius: 10px;padding: 10px 0px 10px 2%;color: black;margin-bottom: 1%;}
+{width: 80%; background-color: lightgrey; border: 0.5px solid white; border-radius: 10px; padding: 10px 0px 10px 2%; color: black; margin-bottom: 1%;}
 
 #commentaires table
 {font-size: 18px;}
