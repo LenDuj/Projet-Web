@@ -1,4 +1,4 @@
-body
+﻿body
 {margin: 0%; background-image: url("../FondPage.jpg"); background-attachment: fixed; color: white;}
 
 /* Bandeau commun à toutes les pages */ 
@@ -125,7 +125,7 @@ form table,textarea
 {width: 95%;}
 
 #zone_commentaires
-{width: 80%; background-color: lightgrey; border: 0.5px solid white; border-radius: 10px; padding: 10px 0px 10px 2%; color: black; margin-bottom: 1%;}
+{margin-left: 5%;width: 80%; background-color: lightgrey; border: 0.5px solid white; border-radius: 10px; padding: 10px 0px 10px 2%; color: black; margin-bottom: 1%;}
 
 #commentaires table
 {font-size: 18px;}
