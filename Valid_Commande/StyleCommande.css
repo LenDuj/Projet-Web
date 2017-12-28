@@ -61,6 +61,12 @@
 .logo_SN img
 {height: 100%;  }
 
+a
+{
+	text-decoration: none;
+	color: lightgrey;
+}
+
 /* Fin du pied de page */
 
 #ValidCommande
